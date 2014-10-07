@@ -1,0 +1,11 @@
+@import "header.scss";
+@import "typography.scss";
+
+.main-wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}

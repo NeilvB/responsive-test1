@@ -1,0 +1,44 @@
+.main-header {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.lead-outer {
+  border: 1px solid black;
+  text-align: center;
+  height: 32px;
+  line-height: 32px;
+}
+
+@media (min-width: 960px) {
+  h1,
+  .header-info,
+  .lead {
+    display: inline-block;
+  }
+
+  h1 {
+    padding-top: 14px;
+    margin-right: 24px;
+  }
+
+  .header-info {
+    width: 16.326%;
+  }
+
+  .lead-outer {
+    display: inline-block;
+    position: relative;
+    height: 66px;
+    width: 154px;
+    line-height: 1;
+    margin-right: 24px;
+  }
+
+  .lead-inner {
+    position: absolute;
+    top: 50%;
+    height: 2em;
+    margin: -1em 14px 0 14px;
+  }
+}

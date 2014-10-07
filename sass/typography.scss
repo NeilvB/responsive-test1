@@ -1,0 +1,51 @@
+body {
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 5.5em;
+  font-family: "PlainBlack";
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+q {
+  quotes: "“" "”" "‘" "’";
+}
+
+q:before {
+  content: open-quote;
+}
+
+q:after {
+  content: close-quote;
+}
+
+.lead {
+  font-size: 1.2em;
+}
+
+.edition {
+  font-family: sans-serif;
+}
+
+@media (min-width: 960px) {
+  .main-header > .header-info {
+    text-align: justify;
+  }
+
+  .edition {
+    text-align: center;
+  }
+}
