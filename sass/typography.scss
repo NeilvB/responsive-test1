@@ -40,6 +40,11 @@ q:after {
   font-family: sans-serif;
 }
 
+.newspaper-info > p:not(.copyright) {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
 @media (min-width: 960px) {
   .main-header > .header-info {
     text-align: justify;
