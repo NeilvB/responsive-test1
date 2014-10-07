@@ -3,9 +3,15 @@
 
 .main-wrapper {
   max-width: 980px;
-  margin: 0 auto;
+  margin: 0 12px;
 }
 
 .clearfix {
   clear: both;
+}
+
+@media (min-width: 960px) {
+  .main-wrapper {
+    margin: 0 auto;
+  }
 }
