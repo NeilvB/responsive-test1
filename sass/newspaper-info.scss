@@ -1,0 +1,22 @@
+.newspaper-info {
+  margin-top: 22px;
+}
+
+@media (min-width: 960px) {
+  .newspaper-info p {
+    display: inline-block;
+    margin-right: 106px;
+  }
+
+  p.copyright {
+    margin-right: 40px;
+  }
+
+  p.date {
+    margin-right: 290px;
+  }
+
+  .newspaper-info > p:last-child {
+    margin: 0;
+  }
+}
