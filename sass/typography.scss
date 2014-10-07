@@ -56,4 +56,8 @@ q:after {
   .edition {
     text-align: center;
   }
+
+  article > p {
+    text-align: justify;
+  }
 }
