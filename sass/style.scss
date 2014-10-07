@@ -27,6 +27,14 @@ article {
   vertical-align: top;
 }
 
+article > header > * {
+  margin-bottom: 12px;
+}
+
+article > header > p:last-child {
+  margin-bottom: 0;
+}
+
 @media (min-width: 960px) {
   .main-wrapper {
     margin: 0 auto;
