@@ -15,14 +15,34 @@
   margin-top: 20px;
 }
 
+figure {
+  display: inline-block;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 2px;
+}
+
+article {
+  display: inline-block;
+  vertical-align: top;
+}
+
 @media (min-width: 960px) {
   .main-wrapper {
     margin: 0 auto;
   }
 
+  img {
+    width: 100%;
+    display: inline-block;
+  }
+
+  figure#centrepiece {
+    width: 65.9%;
+  }
+
   article {
-    width: 154px;
-    border-right: 1px solid black;
-    padding-right: 4px;
+    width: 157px;
+    padding: 0 2px;
   }
 }
