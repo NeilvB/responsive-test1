@@ -52,6 +52,22 @@ q:after {
   font-size: 0.7em;
 }
 
+.location {
+  text-transform: uppercase;
+}
+
+article > header {
+  text-align: center;
+}
+
+article > header > * {
+  margin-bottom: 12px;
+}
+
+article > header > p:last-child {
+  margin-bottom: 0;
+}
+
 @media (min-width: 960px) {
   .main-header > .header-info {
     text-align: justify;
