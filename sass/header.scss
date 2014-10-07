@@ -4,12 +4,16 @@
 }
 
 .lead-outer {
-  display: inline-block;
+  display: block;
   border: 1px solid black;
   text-align: center;
   height: 32px;
   line-height: 32px;
   padding: 0 1em;
+}
+
+.masthead {
+  display: inline-block;
 }
 
 h1 {
@@ -27,16 +31,12 @@ h1 {
     display: inline-block;
   }
 
-  h1 {
-    padding-top: 14px;
-    margin: 0px 60px;
-  }
-
   .header-info {
-    width: 16.326%;
+    width: 150px;
   }
 
   .lead-outer {
+    display: inline-block;
     position: relative;
     height: 66px;
     width: 154px;
@@ -49,5 +49,9 @@ h1 {
     top: 50%;
     height: 2em;
     margin: -1em 14px 0 14px;
+  }
+
+  .masthead {
+    width: 664px;
   }
 }
